@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IPL 2024 Scorecard</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(68, 0, 255);
+    }
+
+    .navbar {
+        background-color: #333;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    .navbar a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    .scorecard {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #baa2a2;
+}
+
+.scorecard + h2 {
+    margin-top: 30px;
+}
+
+    tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+    table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+    th, td {
+        border: none;
+        padding: 8px;
+        text-align: left;
+        border-radius: 4px;
+    }
+    th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+}
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+    h2 {
+    text-align: center;
+    color: #333;
+}
+
+    .recent-form {
+        display: flex;
+        justify-content: center;
+    }
+    .recent-form div {
+    font-size: 9.5px;
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.win {
+    background-color: #28a745;
+    color: white;
+}
+
+    
+.loss {
+    background-color: #dc3545;
+    color: white;
+}
+</style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="#points_table">Points Table</a>
+      </div>
+
+<div class="scorecard">
+    <h2>IPL 2024 Scorecard</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>POS</th>
+                <th>TEAM</th>
+                <th>P</th>
+                <th>W</th>
+                <th>L</th>
+                <th>NR</th>
+                <th>NRR</th>
+
+                <th>PTS</th>
+                <th>RECENT FORM</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>RCB</td>
+                <td>11</td>
+                <td>8</td>
+                <td>3</td>
+                <td>0</td>
+                <td>1.453</td>
+                
+                <td>16</td>
+                <td class="recent-form">
+                    <div class="win">W</div>
+                    <div class="win">W</div>
+                    <div class="win">W</div>
+                    <div class="win">W</div>
+                    <div class="win">W</div>
+                </td>
+            </tr>
+           
+            <tr>
+                <td>2</td>
+                <td>KKR</td>
+                <td>10</td>
+                <td>8</td>
+                <td>2</td>
+                <td>0</td>
+                <td>0.622</td>
+                
+                <td>16</td>
+                <td class="recent-form">
+                    <div class="win">W</div>
+                    <div class="loss">L</div>
+                    
+                    <div class="loss">L</div>
+                  <div class="win">W</div>
+                    <div class="win">W</div>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>GT</td>
+                <td>11</td>
+                <td>6</td>
+                <td>5</td>
+                <td>0</td>
+                <td>0.700</td>
+          
+                <td>12</td>
+                <td class="recent-form">
+                    <div class="win">W</div>
+                    <div class="win">W</div>
+                    <div class="win">W</div>
+                    <div class="loss">L</div>
+                    <div class="loss">L</div>
+                </td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>SRH</td>
+                <td>11</td>
+                <td>6</td>
+                <td>5</td>
+                <td>0</td>
+                <td>-0.065</td>
+           
+                <td>12</td>
+                <td class="recent-form">
+                    <div class="win">W</div>
+                    <div class="win">W</div>
+                    <div class="win">W</div>
+                    <div class="loss">L</div>
+                    <div class="win">W</div>
+                </td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>LSG</td>
+                <td>11</td>
+                <td>6</td>
+                <td>5</td>
+                <td>0</td>
+                <td>-0.371</td>
+               
+                <td>12</td>
+                <td class="recent-form">
+                  <div class="loss">L</div>
+                  <div class="loss">L</div>
+                    <div class="win">W</div>
+                    <div class="win">W</div>
+                    <div class="win">W</div>
+                    
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>DC</td>
+                <td>11</td>
+                <td>5</td>
+                <td>6</td>
+                <td>0</td>
+                <td>-0.442</td>
+               
+                <td>10</td>
+                <td class="recent-form">
+                    <div class="win">W</div>
+                  <div class="loss">L</div>
+                  <div class="loss">L</div>
+                    <div class="win">W</div>
+                    <div class="win">W</div>
+                    
+                  
+                </td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>RR</td>
+                <td>11</td>
+                <td>4</td>
+                <td>7</td>
+                <td>0</td>
+                <td>-0.049</td>
+                
+                <td>8</td>
+                <td class="recent-form">
+                    <div class="win">W</div>
+                    <div class="win">W</div>
+                    <div class="win">W</div>
+                    <div class="loss">L</div>
+                    <div class="win">W</div>
+                </td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>PBKS</td>
+                <td>11</td>
+                <td>4</td>
+                <td>7</td>
+                <td>0</td>
+                <td>-0.187</td>
+              
+                <td>8</td>
+                <td class="recent-form">
+                  <div class="loss">L</div>
+                  
+                    <div class="win">W</div>
+                  <div class="win">W</div>
+                    
+                    <div class="loss">L</div>
+                    <div class="win">W</div>
+                </td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>MI</td>
+                <td>12</td>
+                <td>4</td>
+                <td>8</td>
+                <td>0</td>
+                <td>-0.212</td>
+                
+                <td>8</td>
+                <td class="recent-form">
+                    <div class="win">W</div>
+                    <div class="win">W</div>
+                    <div class="win">W</div>
+                    <div class="loss">L</div>
+                    <div class="win">W</div>
+                </td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>CSk</td>
+                <td>11</td>
+                <td>4</td>
+                <td>7</td>
+                <td>0</td>
+                <td>-1.320</td>
+              
+                <td>8</td>
+                <td class="recent-form">
+                    <div class="loss">L</div>
+                    <div class="loss">L</div>
+                    <div class="loss">L</div>
+                    <div class="loss">L</div>
+                    <div class="loss">L</div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>
